@@ -17,5 +17,7 @@ namespace BugTrackerUI
         [Required]
         [Range(1,5)]
         public int Priority { get; set; }
+
+        
     }
 }
