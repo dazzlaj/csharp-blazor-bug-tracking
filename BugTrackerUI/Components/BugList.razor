@@ -1,4 +1,5 @@
-﻿<h3>All Bugs</h3>
+﻿
+<h3>All Bugs</h3>
 
 <table>
     <thead>
@@ -31,7 +32,7 @@
 
     protected override void OnInitialized()
     {
-        Bugs = BugService.GetBugs().OrderBy(x => x.Priority);
+        Bugs = BugService.GetBugs();
     }
 
 
